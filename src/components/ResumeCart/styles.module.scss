@@ -1,0 +1,167 @@
+.container {
+    padding: 23px 26px;
+
+}
+
+.content {
+    width: 100%;
+    background: #dde3e9;
+    padding: 20px 15px;
+    border-radius: 8px;
+
+    h1 {
+        margin-bottom: 8px;
+
+        font-weight: 900;
+        font-size: 20px;
+    }
+    p {
+        font-size: 18px;
+    }   
+    
+}
+
+.descriptionContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 16px;
+    
+    border-bottom: 1px solid #2f3676;
+    
+}
+
+.amountDescription {
+    text-align: center;
+    margin-bottom: 16px;
+    
+
+    button {
+        border: none;
+        background: #dde3e9;
+        font-weight: 900;
+        font-size: 15px;
+
+        transition: color 0.4s;
+
+        &:hover {
+            color: red;
+        }
+    }
+
+    h3 {
+        font-size: 35px;      
+    }
+
+    div {
+
+        & + div {
+            margin-top: 5px;
+
+        }
+    }
+
+}
+
+.paymentContainer {
+    padding: 16px 0;
+
+}
+
+.paymentContent {
+    background: #dde3e9;
+    padding: 20px 15px;
+    border-radius: 8px;
+
+    h1 {
+        margin-bottom: 8px;
+
+        font-weight: 900;
+        font-size: 20px;
+
+        display: flex;
+
+        span {
+            margin-right: 5px;
+        }
+    }
+}
+
+.personalInfos {
+    display: flex;
+    justify-content: space-between;
+
+    input {
+        padding: 8px 8px;
+        border-radius: 4px;
+
+        font-size: 16px;
+
+    }
+}
+
+.numbersInfos {
+    display: flex;
+    margin-top: 8px;
+
+    input {
+        width: 25%;
+        border-radius: 4px;
+        padding: 8px 8px;
+
+        font-size: 16px;
+
+
+        & + input {
+            margin-left: 10px;
+        }
+
+    }
+    
+}
+
+.paymentMode {
+    margin-top: 10px;
+
+    select {
+        width: 100%;
+        text-align: center;
+        padding: 6px 0;
+        
+    }
+}
+
+.btnFinal {
+    display: flex;
+    justify-content: space-between;
+
+    button {
+        background: #2f3676;
+        color: #fff;
+
+        font-weight: bold;
+
+        padding:8px;
+        border-radius: 8px;
+
+        transition: filter 0.2s;
+
+        &:hover {
+            filter: brightness(0.7)
+        }
+        
+    }
+
+    .btnBack {
+        padding-left: 14px;
+
+        transition: filter 0.2s;
+
+        &:hover {
+            filter: brightness(0.7)
+        }
+        
+    }
+    
+}
