@@ -5,7 +5,9 @@ export function Footer() {
   return (
     <footer className={styles.container}>
       <Link href="/resumo">
-        <button>FINALIZAR COMPRA</button>
+        <button type="button">
+          FINALIZAR COMPRA
+        </button>
       </Link>
     </footer>
   );

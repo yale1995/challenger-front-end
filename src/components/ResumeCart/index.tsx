@@ -21,7 +21,10 @@ export function ResumeCart() {
           <p>Stickers Selecionados:</p>
         </div>
         {products.map((product) => (
-          <div key={product.nameSticker} className={styles.descriptionContainer}>
+          <div
+            key={product.nameSticker}
+            className={styles.descriptionContainer}
+          >
             <h2>{product.nameSticker}</h2>
             <div className={styles.amountDescription}>
               <div>Qntd.</div>
